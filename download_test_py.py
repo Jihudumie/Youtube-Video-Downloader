@@ -5,7 +5,7 @@ def downloadVid():
     global E1
     string =E1.get()
     yt = YouTube(str(string))
-    videos = yt.get_videos()
+    videos = yt.get_videosbhnn()
     s=1
     for v in videos:
         print(str(s) + '.' + str(v))
